@@ -1,0 +1,1 @@
+{"device_id": "device-85", "temperature": 27.3, "humidity": 34.92, "timestamp": "2025-04-28T11:23:49.011884"}
