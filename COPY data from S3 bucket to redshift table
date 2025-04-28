@@ -1,0 +1,5 @@
+COPY iot_sensor_data
+FROM 's3://bucket-for-streams/'
+IAM_ROLE 'arn:aws:iam::YOUR-ID:role/RoleForLambdaKinesis'
+FORMAT AS JSON 'auto'
+TIMEFORMAT AS 'auto';
