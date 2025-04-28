@@ -1,0 +1,6 @@
+CREATE TABLE iot_sensor_data (
+    device_id VARCHAR(50),
+    temperature FLOAT,
+    humidity FLOAT,
+    timestamp TIMESTAMP
+);
